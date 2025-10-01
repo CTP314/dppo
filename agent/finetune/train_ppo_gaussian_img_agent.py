@@ -15,7 +15,7 @@ import math
 log = logging.getLogger(__name__)
 from util.timer import Timer
 from agent.finetune.train_ppo_gaussian_agent import TrainPPOGaussianAgent
-from model.common.modules import RandomShiftsAug
+from dppo.model.common.modules import RandomShiftsAug
 
 
 class TrainPPOImgGaussianAgent(TrainPPOGaussianAgent):
